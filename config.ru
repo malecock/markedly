@@ -1,4 +1,3 @@
-$: << File.dirname(__FILE__)
-require 'index.rb'
+require 'app.rb'
 
-run Markedly.new
+run Sinatra::Application
