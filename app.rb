@@ -29,6 +29,7 @@ end
 post '/user' do
 	user = User.create(params[:user])
 	redirect to()
+end
 
 get '/about' do
 	@title = :about

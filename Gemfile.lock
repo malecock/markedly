@@ -87,6 +87,7 @@ PLATFORMS
 DEPENDENCIES
   datamapper
   dm-sqlite-adapter
+  do_sqlite3
   sass
   sinatra
   sinatra-contrib
