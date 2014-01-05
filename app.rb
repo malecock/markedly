@@ -16,7 +16,7 @@ configure :development do
 end 
 
 configure :production do
-	DataMapper.setup(:default, ENV['DATABASE_URL'] || 'postgres://localhost/mydb')
+	DataMapper.setup(:default, ENV['DATABASE_URL'] || 'postgres://csjcqxiucqufqd:KQLUFBRz_eIhQbGhTxCAoSX6Qq@ec2-54-197-250-40.compute-1.amazonaws.com:5432/d8bg0dbtjush7p')
 end
 
 get '/' do
