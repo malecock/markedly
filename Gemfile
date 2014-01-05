@@ -5,6 +5,7 @@ gem 'sinatra'
 gem 'slim'
 gem 'datamapper'
 gem 'sass'
+gem 'pg'
 
 group :development do 
 	gem 'dm-sqlite-adapter'
@@ -12,5 +13,6 @@ group :development do
 	gem 'do_sqlite3'
 end
 
-gem 'dm-postgres-adapter', :group => :production
-gem 'pg'
+group :production do
+	gem 'dm-postgres-adapter'
+end

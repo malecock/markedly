@@ -11,14 +11,6 @@ puts "This is process #{Process.pid}"
 
 get ('/markedly_styles.css'){ scss :markedly_styles}
 
-configure :development do  
-    DataMapper.auto_upgrade!  
-end 
-
-configure :production do
-	DataMapper.setup(:default, ENV['DATABASE_URL'] || 'postgres://csjcqxiucqufqd:KQLUFBRz_eIhQbGhTxCAoSX6Qq@ec2-54-197-250-40.compute-1.amazonaws.com:5432/d8bg0dbtjush7p')
-end
-
 get '/' do
 	@title = :home
 	slim :home
