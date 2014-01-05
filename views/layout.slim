@@ -3,6 +3,7 @@ html
 	head
 		title=@title 
 		meta charset="utf-8"
+		link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Quicksand"
 		link rel="stylesheet" href="/markedly_styles.css"
 	body
 		header
@@ -11,3 +12,5 @@ html
 		section
 			==yield
 
+		section
+			==slim :sign_up

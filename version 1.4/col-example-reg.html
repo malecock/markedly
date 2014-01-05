@@ -1,0 +1,101 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Pure CSS3 Forms Set</title>
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/pcss3fs.css" />
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" href="css/pcss3fs-ie8.css" />
+			<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="js/ie8.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<h1><strong>Pure CSS3</strong> Forms Set</h1>
+		
+		<form action="" class="pcss3f pcss3f-type-col">
+			<header>Columned <strong>registration</strong> form</header>
+			
+			<div class="columns">
+				<div class="column column-l">
+					<section class="state-normal">
+						<label for="">Name</label>
+						<input type="text" />
+						<i class="icon-user"></i>
+					</section>
+				</div>
+				
+				<div class="column column-l">
+					<section class="state-normal">
+						<label for="">Email</label>
+						<input type="email" />
+						<i class="icon-envelope-alt"></i>
+					</section>
+				</div>
+			</div>
+			
+			<div class="columns">
+				<div class="column column-l">
+					<section class="state-normal">
+						<label for="">Password</label>
+						<input type="password" />
+						<i class="icon-key"></i>
+					</section>
+				</div>
+				
+				<div class="column column-l">
+					<section class="state-normal">
+						<label for="">Confirm password</label>
+						<input type="password" />
+						<i class="icon-key"></i>
+					</section>
+				</div>
+			</div>
+			
+			<div class="columns">
+				<div class="column">
+					<section class="state-normal">
+						<label for="">Gender</label>
+						<input type="radio" name="radio" id="radio1" />
+						<label for="radio1">Male</label>
+						<input type="radio" name="radio" id="radio2" />
+						<label for="radio2">Female</label>
+					</section>
+				</div>
+				
+				<div class="column">
+					<section class="state-normal">
+						<label for="">Subscription</label>
+						<input type="checkbox" name="checkbox" id="subscription1" />
+						<label for="subscription1">News</label>
+						<input type="checkbox" name="checkbox" id="subscription2" />
+						<label for="subscription2">Special offers</label>
+					</section>
+				</div>
+				
+				<div class="column">
+					<section class="state-normal">
+						<label for="">Agreement</label>
+						<input type="checkbox" name="checkbox" id="subscription3" />
+						<label for="subscription3">Terms</label>
+						<input type="checkbox" name="checkbox" id="subscription4" />
+						<label for="subscription4">Conditions</label>
+					</section>
+				</div>
+			</div>
+			
+			<div class="columns">
+				<div class="column column-l">
+				</div>
+			</div>
+			
+			<footer>
+				<button type="button" onclick="window.location = 'index.html'">Back</button>
+				<button type="submit" class="color-blue">Submit</button>
+			</footer>
+		</form>
+	</body>
+</html>

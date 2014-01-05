@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Pure CSS3 Forms Set</title>
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/pcss3fs.css" />
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" href="css/pcss3fs-ie8.css" />
+			<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="js/ie8.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<h1><strong>Pure CSS3</strong> Forms Set</h1>
+		
+		<form action="" class="pcss3f pcss3f-type-col">
+			<header>Columned <strong>contacts</strong> form</header>
+			
+			<div class="columns">
+				<div class="column column-l">
+					<section class="state-normal">
+						<label for="">Name</label>
+						<input type="text" />
+						<i class="icon-user"></i>
+					</section>
+				</div>
+				
+				<div class="column column-l">
+					<section class="state-normal">
+						<label for="">Email</label>
+						<input type="email" />
+						<i class="icon-envelope-alt"></i>
+					</section>
+				</div>
+			</div>			
+			
+			<section class="state-normal">
+				<label for="">Subject</label>
+				<input type="text" />
+				<i class="icon-tag"></i>
+			</section>
+			
+			<section class="state-normal">
+				<label for="">Message</label>
+				<textarea cols="1" rows="1"></textarea>
+				<i class="icon-comment"></i>
+			</section>
+			
+			<footer>
+				<button type="button" onclick="window.location = 'index.html'">Back</button>
+				<button type="submit" class="color-blue">Submit</button>
+			</footer>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Pure CSS3 Forms Set</title>
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/pcss3fs.css" />
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" href="css/pcss3fs-ie8.css" />
+			<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="js/ie8.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<h1><strong>Pure CSS3</strong> Forms Set</h1>
+		
+		<form action="" class="pcss3f pcss3f-type-col">
+			<header>Columned form with <strong>success</strong> states</header>
+			
+			<div class="columns">
+				<div class="column">			
+					<section class="state-success">
+						<label for="">Text field</label>
+						<input type="text">
+						<i class="icon-ok"></i>
+						<b>This is an example of the tooltip</b>
+					</section>
+				</div>
+				<div class="column">			
+					<section class="state-success">
+						<label for="">Password field</label>
+						<input type="password">
+						<i class="icon-ok"></i>
+						<b>This is an example of the tooltip</b>
+					</section>
+				</div>
+				
+				<div class="column">
+					<section class="state-success">
+						<label for="">Select field</label>
+						<select name="">
+							<option value="" disabled selected></option>
+							<option value="1">Option 1</option>
+							<option value="3">Option 2</option>
+							<option value="2">Option 3</option>
+						</select>
+						<span></span>
+						<i class="icon-ok"></i>
+						<b>This is an example of the tooltip</b>
+					</section>
+				</div>
+			</div>
+			
+			<div class="columns">
+				<div class="column column-l">			
+					<section class="state-success">
+						<label for="">Autocomlete field</label>
+						<input type="text" list="list">
+						<i class="icon-ok"></i>
+						<b>This is an example of the tooltip</b>
+						<datalist id="list">
+							<option value="Alexandra">
+							<option value="Alice">
+							<option value="Anastasia">
+							<option value="Avelina">
+							<option value="Basilia">
+							<option value="Beatrice">
+							<option value="Cassandra">
+							<option value="Cecil">
+							<option value="Clemencia">
+							<option value="Desiderata">
+							<option value="Dionisia">
+							<option value="Edith">
+							<option value="Eleanora">
+							<option value="Elizabeth">
+							<option value="Emma">
+							<option value="Felicia">
+							<option value="Florence">
+							<option value="Galiana">
+							<option value="Grecia">
+							<option value="Helen">
+							<option value="Helewisa">
+							<option value="Idonea">
+							<option value="Isabel">
+							<option value="Joan">
+							<option value="Juliana">
+							<option value="Karla">
+							<option value="Karyn">
+							<option value="Kate">
+							<option value="Lakisha">
+							<option value="Lana">
+							<option value="Laura">
+							<option value="Leona">
+							<option value="Mandy">
+							<option value="Margaret">
+							<option value="Maria">
+							<option value="Nanacy">
+							<option value="Nicole">
+							<option value="Olga">
+							<option value="Pamela">
+							<option value="Patricia">
+							<option value="Qiana">
+							<option value="Rachel">
+							<option value="Ramona">
+							<option value="Samantha">
+							<option value="Sandra">
+							<option value="Tanya">
+							<option value="Teresa">
+							<option value="Ursula">
+							<option value="Valerie">
+							<option value="Veronica">
+							<option value="Wilma">
+							<option value="Yasmin">
+							<option value="Zelma">
+						</datalist>
+					</section>
+				</div>
+				<div class="column column-l">			
+					<section class="state-success">
+						<label for="">File input</label>
+						<div class="input-file"><span></span><input type="file" onchange="this.previousSibling.innerHTML = this.value"></div>
+						<i class="icon-ok"></i>
+					</section>
+				</div>
+			</div>
+			
+			<div class="columns">
+				<div class="column column-l">
+					<section class="state-success">
+						<label for="">Textarea field</label>
+						<textarea cols="1" rows="1"></textarea>
+						<i class="icon-ok"></i>
+						<b>This is an example of the tooltip</b>
+					</section>
+				</div>
+					
+				<div class="column column-l">
+					<section class="state-success">
+						<label for="">Resizable textarea</label>
+						<textarea cols="1" rows="1" class="resizable"></textarea>
+						<i class="icon-ok"></i>
+						<b>This is an example of the tooltip</b>
+					</section>
+				</div>
+			</div>
+			
+			<div class="columns">
+				<div class="column column-l">
+					<section class="state-success">
+						<label for="">Radios</label>
+						<input type="radio" name="radio" id="radio1">
+						<label for="radio1">Radio option 1</label>
+						<input type="radio" name="radio" id="radio2">
+						<label for="radio2">Radio option 2</label>
+						<input type="radio" name="radio" id="radio3">
+						<label for="radio3">Radio option 3</label>
+						<i class="icon-ok"></i>
+						<b>This is an example of the tooltip</b>
+					</section>
+				</div>
+				
+				<div class="column column-l">
+					<section class="state-success">
+						<label for="">Checkboxes</label>
+						<input type="checkbox" name="checkbox" id="checkbox1">
+						<label for="checkbox1">Checkbox option 1</label>
+						<input type="checkbox" name="checkbox" id="checkbox2">
+						<label for="checkbox2">Checkbox option 2</label>
+						<input type="checkbox" name="checkbox" id="checkbox3">
+						<label for="checkbox3">Checkbox option 3</label>
+						<i class="icon-ok"></i>
+						<b>This is an example of the tooltip</b>
+					</section>
+				</div>
+			</div>
+			
+			<footer>
+				<button type="button" onclick="window.location = 'index.html'">Back</button>
+				<button type="submit" class="color-blue">Submit</button>
+			</footer>
+		</form>
+	</body>
+</html>

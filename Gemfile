@@ -11,3 +11,5 @@ group :development do
 	gem 'sinatra-contrib'
 	gem 'do_sqlite3'
 end
+
+gem 'dm-postgres-adapter', :group => :production

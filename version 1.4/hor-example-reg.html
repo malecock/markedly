@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Pure CSS3 Forms Set</title>
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/pcss3fs.css" />
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" href="css/pcss3fs-ie8.css" />
+			<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="js/ie8.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<h1><strong>Pure CSS3</strong> Forms Set</h1>
+		
+		<form action="" class="pcss3f pcss3f-type-hor">
+			<header>Horizontal <strong>registration</strong> form</header>
+			
+			<section class="state-normal">
+				<label for="">Login</label>
+				<input type="text" />
+				<i class="icon-user"></i>
+			</section>
+			
+			<section class="state-normal">
+				<label for="">Email</label>
+				<input type="email" />
+				<i class="icon-envelope"></i>
+			</section>
+			
+			<section class="state-normal">
+				<label for="">Gender</label>
+				<select name="">
+					<option value="" disabled selected></option>
+					<option value="1">Male</option>
+					<option value="2">Female</option>
+				</select>
+				<span></span>
+			</section>
+			
+			<section class="state-normal">
+				<label for="">Password</label>
+				<input type="password" />
+				<i class="icon-key"></i>
+			</section>
+			
+			<section class="state-normal">
+				<label for="">Confirm password</label>
+				<input type="password" />
+				<i class="icon-key"></i>
+			</section>
+			
+			<section class="state-normal">
+				<input type="checkbox" name="checkbox" id="checkbox1" />
+				<label for="checkbox1">I agree with terms and conditions</label>
+				<input type="checkbox" name="checkbox" id="checkbox2" />
+				<label for="checkbox2">I want to receive news and special offers</label>
+			</section>
+			
+			<footer>
+				<button type="button" onclick="window.location = 'index.html'">Back</button>
+				<button type="submit" class="color-blue">Submit</button>
+			</footer>
+		</form>
+	</body>
+</html>

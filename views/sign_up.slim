@@ -1,1 +1,26 @@
-p this is a form to be embedded in the home page
+
+form action="/sign_up" enctype="multipart/form-data" class="pcss3f pcss3f-type-hor" method="POST"
+	header Join Us
+
+	section.state-normal
+		label for="firstname" First Name
+		<input type="text" name="firstname" placeholder="Matthew" required >
+	
+	section.state-normal
+		label for="lastname" Last Name
+		<input type="text" name="lastname" placeholder="Walker" required >
+
+	section.state-normal
+		label for="website" Website URL
+		<input type="text" name="url" placeholder="www.marked.ly" required >
+	
+	section.state-normal
+		label for="email" Email
+		<input type="email" name="email" placeholder="mattwalker@me.com" required >
+
+	section.state-normal
+		label for="phone" Phone
+		<input type="text" name="phone" placeholder="800-555-1212" required >
+
+	footer
+		button.color-blue type="submit" Submit
