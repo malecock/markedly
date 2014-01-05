@@ -13,3 +13,4 @@ group :development do
 end
 
 gem 'dm-postgres-adapter', :group => :production
+gem 'pg'
