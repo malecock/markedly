@@ -1,14 +1,19 @@
 $red: #903;
-$black: #444;
+$black: #003366;
 $white: #fff;
 $main-font: Quicksand, sans-serif;
 
 body {
   font-family: $main-font;
-  background:url(/images/markedly_bg.gif);
-  background-size:100% 100%;
+  background:url(/images/tokyo_dark.jpg);
 	background-repeat:no-repeat;
 	display: block;
+	margin: 0px;
+}
+div.background {
+	
+-webkit-filter: blur(10px);     
+    filter: blur(10px);
 }
 
 header {
@@ -51,6 +56,14 @@ p {
 
 form {
 	display:block;
+}
+
+.markedly_home {
+	font-family: $main-font;
+	color: $white;
+	font-size: 30px;
+	font-weight: 400;
+	padding: 8px;
 }
 
 /**/
