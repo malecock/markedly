@@ -1,12 +1,10 @@
 $red: #903;
-$black: #003366;
+$black: #666666;
 $white: #fff;
 $main-font: Quicksand, sans-serif;
 
 body {
   font-family: $main-font;
-  background:url(/images/tokyo_dark.jpg);
-	background-repeat:no-repeat;
 	display: block;
 	margin: 0px;
 }
@@ -60,10 +58,14 @@ form {
 
 .markedly_home {
 	font-family: $main-font;
-	color: $white;
 	font-size: 30px;
 	font-weight: 400;
 	padding: 8px;
+	text-align: center;
+}
+.confirm{
+	font-family: $main-font;
+	text-align: center;
 }
 
 /**/
