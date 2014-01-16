@@ -20,6 +20,7 @@ end
 
 
 post '/sign_up' do
+=begin	
 	session[:secret]
 	if params[:url].include? "http://"
 		url = params[:url]
@@ -57,7 +58,7 @@ get '/confirm' do
 		@sign_up_phone = Sign_up.last[:phone]
 	slim :confirm
 end
-
+=end
 not_found do
 	#we'll create a slim 400 page
 	@title = params[:not_found]

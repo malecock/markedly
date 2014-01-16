@@ -2,16 +2,15 @@ $red: #903;
 $black: #666666;
 $white: #fff;
 $main-font: Quicksand, sans-serif;
+$background_image: url(/images/graph2_bg.png);
 
 body {
   font-family: $main-font;
 	display: block;
 	margin: 0px;
-}
-div.background {
-	
--webkit-filter: blur(10px);     
-    filter: blur(10px);
+	background: $background_image;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
 }
 
 header {
@@ -47,6 +46,10 @@ header {
 nav {
   @include tabs ($background: $black, $color: $white);
 }
+footer {
+	@include tabs ($background: $black, $color: $white);
+	height: 50px;
+}
 
 p {
   font: 13px/1.4 $main-font;
@@ -55,6 +58,11 @@ p {
 form {
 	display:block;
 }
+
+.div {
+	height: 50px;
+}
+
 
 .markedly_home {
 	font-family: $main-font;
