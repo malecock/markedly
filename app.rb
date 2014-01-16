@@ -18,9 +18,8 @@ get '/' do
 	slim :home
 end
 
-
-post '/sign_up' do
 =begin	
+post '/sign_up' do
 	session[:secret]
 	if params[:url].include? "http://"
 		url = params[:url]
